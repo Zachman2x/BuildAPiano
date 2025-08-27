@@ -22,16 +22,7 @@ function playNote(key) {
   noteAudio.play();
   key.classList.add('active'); 
 }
-.white.active {
-  background-color: #ccc;
-}
 
-.black.active {
-  background-color: #333;
-}
-noteAudio.addEventListener('ended', () => {
-  key.classList.remove('active');
-});
 //keyboard playing
   if (whiteKeyIndex > -1) {
     playNote(whiteKeys[whiteKeyIndex]);
@@ -41,7 +32,8 @@ noteAudio.addEventListener('ended', () => {
     playNote(blackKeys[blackKeyIndex]);
   }
 });
-  // If the key is being held down, don't play the note again
-  if (e.repeat) {
-    return;
-  }
+
+  
+noteAudio.addEventListener('ended', () => {
+  key.classList.remove('active');
+});
