@@ -30,18 +30,31 @@ document.addEventListener('keydown', (e) => {
   //Hot cross buns
   if(key == 'q'){
     playNote(whiteKeys[2]);
+    setTimeout(1500);
     playNote(whiteKeys[1]);
+    setTimeout(1500);
     playNote(whiteKeys[0]);
+    setTimeout(1500);
     playNote(whiteKeys[2]);
+    setTimeout(1500);
     playNote(whiteKeys[1]);
+    setTimeout(1500);
     playNote(whiteKeys[0]);
+    setTimeout(1500);
     playNote(whiteKeys[0]);
+    setTimeout(1500);
     playNote(whiteKeys[0]);
+    setTimeout(1500);
     playNote(whiteKeys[1]);
+    setTimeout(1500);
     playNote(whiteKeys[1]);
+    setTimeout(1500);
     playNote(whiteKeys[1]);
+    setTimeout(1500);
     playNote(whiteKeys[2]);
+    setTimeout(1500);
     playNote(whiteKeys[1]);
+    setTimeout(1500);
     playNote(whiteKeys[0]);
   }
 
