@@ -27,8 +27,22 @@ document.addEventListener('keydown', (e) => {
   const whiteKeyIndex = WHITE_KEYS.indexOf(key);
   const blackKeyIndex = BLACK_KEYS.indexOf(key);
 
+  //Hot cross buns
   if(key == 'q'){
     playNote(whiteKeys[2]);
+    playNote(whiteKeys[1]);
+    playNote(whiteKeys[0]);
+    playNote(whiteKeys[2]);
+    playNote(whiteKeys[1]);
+    playNote(whiteKeys[0]);
+    playNote(whiteKeys[0]);
+    playNote(whiteKeys[0]);
+    playNote(whiteKeys[1]);
+    playNote(whiteKeys[1]);
+    playNote(whiteKeys[1]);
+    playNote(whiteKeys[2]);
+    playNote(whiteKeys[1]);
+    playNote(whiteKeys[0]);
   }
 
   if (whiteKeyIndex > -1) {
